@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@300&family=Roboto+Mono:ital,wght@1,200&display=swap');
+:root {
+  --primary-color: rgb(101, 199, 221);
+  --primary-color-darker: rgb(116, 204, 221);
+}
+* {
+    margin: 0%;
+    font-family: 'Open sans', sans-serif;
+}
+  
+body {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+.container{
+    background-color:var(--primary-color-darker);
+    height: 98%;
+    width: 50%;
+    outline: solid 1px rgb(104, 102, 102);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.result{
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.8em;
+    overflow: auto;
+}
+.result tr{
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+#info{
+    margin-top: -48%;
+    margin-left: -40%;
+    position: absolute;
+    font-size: 0.85em;
+}
